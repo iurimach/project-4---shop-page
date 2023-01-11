@@ -1,0 +1,539 @@
+
+* {
+    margin: 0;
+   padding: 0;
+   
+}
+
+.header{
+    max-width: 100%px;
+    width: 100%;
+    height: 38px;
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+    
+}
+.header p{
+    color:  #ffffff;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 10px;
+    
+}
+.header2{
+    display: flex;
+    max-width: 1100px;
+    height: 55px;
+    
+    margin: 0 auto;
+    align-items: center;
+    justify-content:center;
+    justify-content: space-between;
+
+}
+.Tsubaki{
+    
+    align-items: center;
+    font-size: 23px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      
+}
+
+
+.nav{
+    
+    display: flex;
+
+}
+ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+} 
+   
+
+ul li{
+    max-width: 200px;
+    color: white;
+    list-style: none;
+    font-family:  sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 60px;
+}
+li a{
+    text-decoration: none;
+    color: #000000;
+
+}
+li a:hover{
+    color: rgb(230, 39, 14);
+
+}
+/** section 1 */
+.section1{
+    
+}
+
+.bg1img {
+margin-top: 20px;
+background-image: url("../foto/backround`.jpg");
+width: 100%;
+height: 750px;
+
+background-repeat: no-repeat;
+background-size: contain;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+
+}
+
+.bgtexst{
+
+position: absolute;
+margin-left: 80px;
+
+}
+.bgtexst h1{
+    font-size: 40px;
+}
+.bgtexst p {
+    font-size: 16px;
+
+    margin:8px 0px 16px ;
+
+}
+.bgtexst button{
+    background-color: #000000;
+    height: 50px;
+    width: 150px;
+    color: #ffffff;
+    padding: 12px 42px;
+    cursor: pointer;
+    font-size: 13px;
+    
+}
+
+.footer1{
+    max-width: 1280px;
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer1div{
+    max-width: 430px;
+    
+}
+.footer2div{
+    
+    position: absolute;
+    margin-top: 110px;
+    font-size: 18px;
+    
+
+   
+
+}
+.footer2div a{
+    color: black;
+
+}
+/**section 2 */
+.section2{
+    max-width: 1280px;
+    width: 100vw;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 70px;
+  
+    box-sizing: border-box;
+}
+.secton2div1{
+    background-image: url("../foto/women.jpg");
+    width: 100vw;
+    height: auto;
+    background-repeat: no-repeat;
+background-size: contain;
+box-sizing: border-box;
+display:flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.texs{
+    display: block;
+
+}
+.texs h1{
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: white;
+}
+.texs button{
+    background-color:black;
+    color: #ffffff;
+    border-radius: 2px solid black;
+    width: 90px;
+    height: 40px;
+    cursor: pointer;
+}
+/** man bacgrpund  */
+.sectin2div2{
+    background-image: url("../foto/man.jpg");
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.texs{
+    display: block;
+    position: absolute
+
+}
+.texs h1{
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: white;
+    
+}
+.texs button{
+    background-color:black;
+    color: #ffffff;
+    border-radius: 2px solid black;
+    width: 90px;
+    height: 40px;
+    cursor: pointer;
+   
+}
+/** section 3 */
+.section3{
+    max-width: 1280px;
+    width: 100%;
+    height: auto;
+    
+    margin: 0 auto;
+  
+}
+.warwera{
+    font-size: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    margin-top: 70px;
+
+    justify-content: center;
+}
+.boxwraper{
+    max-width: 900px;
+    height: 300px;
+       display: flex;
+       align-content: flex-start;
+    
+       
+       margin-top: 20px;
+      
+   }
+.box{
+       width: 300px;
+       height: 400px;
+       padding-left: 20px;
+       justify-content:end;
+   
+   }
+.box div img{
+    width: 238px;
+    height: 238px;
+}
+
+.box div h2{
+    font-size: 17px;
+    width: 200px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.box div h3{
+    font-size: 18px;
+    padding-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.section3footer{
+    margin-top: 90px;
+    width: 1280px;
+    max-width: 100%;
+   height: 20px;
+
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   
+
+}
+.section3footer a{
+    font-size: 20px;
+    color: #000000;
+}
+/** section 4 */
+
+.bg2img {
+    margin-top: 70px;
+    background-image: url("../foto/backround2`.jpg");
+    
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat; 
+    background-size: contain;
+    
+    position: relative;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    position: relative;
+
+    
+    }
+    
+    .bg2texst{
+
+        margin-left: 40%;
+        margin-top: 20%;
+   
+    
+    
+    position: absolute;
+    
+    
+    text-decoration: none;
+    
+    
+    }
+    .bg2texst h1{
+        font-size: 40px;
+        text-decoration: none;
+    }
+    
+    
+    .bg2texst p {
+        font-size: 16px;
+    
+        margin:8px 0px 16px ;
+    
+    }
+    .bg2texst button{
+        background-color: #000000;
+        height: 60px;
+        width: 190px;
+        color: #ffffff;
+        padding: 12px 42px;
+        cursor: pointer;
+        font-size: 13px;
+        
+    }
+    
+    /** section 5  */
+.section5 h2{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.section5 h3 {
+    font-size: 25x;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 120px;
+    
+
+}
+
+.section5 h3 a{
+    
+    color: #000000;
+}
+
+.imgbox{
+    display: flex;
+    max-width: 1000px;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+ 
+}
+.imgbox img{
+   
+    width: 180px;
+    height: auto;
+   
+}
+/* footer  */
+
+
+.fboxwraper{
+    
+    width: 100%;
+    height: 350px;
+    
+    background-color: #000000;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    
+    
+      
+}
+.fconteiner{
+    max-width: 1200px;
+    width: 90%;
+    height: auto;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+    
+    
+    
+}
+
+.footerbox1 , .footerbox2 ,  .footerbox3{
+    color: white;
+    width: 220px;
+    list-style: none;
+    height: auto;
+    
+
+}
+.footerbox2 ,  .footerbox3, .footerbox4{
+    padding-left: 30px;
+
+}
+
+.footerbox1 h3 , .footerbox2 h3 , .footerbox4 h3 {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.footerbox1 li , .footerbox2 li{
+    padding-top: 15px;
+    
+}
+.footerbox2 li a{
+    color: #ffffff;
+}
+.footerbox3{
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ficon{
+    margin-top: 30px;
+    color: #ffffff;
+}
+.ficon a{
+    
+    color: #ffffff;
+}
+#icon2{
+    padding-left: 10px;
+    
+}
+.ficon i{
+    font-size: 18px;
+    
+}
+.footerbox4{
+    color: #ffffff;
+    max-width: 300px;
+    flex-direction: column;
+   
+   
+    
+}
+
+.footerbox4 input{
+    flex-direction: column;
+    margin-top: 30px;
+    height: 30px;
+    outline: none;
+    width: 90%;
+}
+.footerbox4 button{
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid silver;
+   max-width: 80px;
+    height: 35px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+.footerbox4 button a{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+
+/** section 6 */
+
+.footerend{
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+    position: relative;
+    
+    
+
+    
+}
+
+.footerend::before{
+    content: "";
+    width: 100%;
+    height: 1.5px;
+    background-color: rgba(25, 32, 32, 0.753);
+    display: inline-block;
+}
+.footerend i, .footerend p{
+    color: #ffffff;
+    margin-left: 10px;
+    
+   
+    
+}
+
+.copyright{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    margin-left: 42%;
+    box-sizing: border-box;
+
+}
