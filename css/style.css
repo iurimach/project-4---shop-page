@@ -165,7 +165,7 @@ margin-left: 80px;
     width: 100vw;
     height: auto;
     background-repeat: no-repeat;
-background-size: contain;
+background-size: cover;
 box-sizing: border-box;
 display:flex;
 justify-content: center;
